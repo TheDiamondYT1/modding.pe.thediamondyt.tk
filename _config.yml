@@ -2,6 +2,7 @@ timezone: Europe/London
 
 title: "Minecraft: Pocket Edition Modding"
 
+pygments: true
 markdown: redcarpet
 
 collections:
