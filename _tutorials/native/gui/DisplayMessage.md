@@ -4,7 +4,7 @@ permalink: /tutorials/native/gui/display-message/
 shortname: Displaying Messages
 ---
 ### Displaying messages
-In this particular tutorial, `game` is an instance of the `MinecraftGame` class.
+In this particular tutorial, `game` is an instance of the `MinecraftGame` class.  
 <br>
 #### Client message
 ```

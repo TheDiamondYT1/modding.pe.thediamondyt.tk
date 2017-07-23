@@ -12,9 +12,10 @@ shortname: Native Mod Tutorial
 * [Events](events/)  
   * [Player Loaded](events/player-loaded)  
   
+---
   
 ### Headers
-<br>
+
 #### WTF are headers!?
 If you don't know what they are then you don't belong here. Go and learn at least a bit of C++.
 <br>
