@@ -5,7 +5,7 @@ shortname: Player Loaded
 ---
 This particular tutorial shows you how to do something when a player joins the level.
 
-```
+```cpp
 static void (*_MinecraftGame$onPlayerLoaded)(MinecraftGame*, Player&);
 static void MinecraftGame$onPlayerLoaded(MinecraftGame* self, Player& player)
 {
@@ -16,6 +16,6 @@ static void MinecraftGame$onPlayerLoaded(MinecraftGame* self, Player& player)
 
 Don't forget to hook it!
 
-```
+```cpp
 MSHookFunction((void*) &MinecraftGame::onPlayerLoaded, (void*) &MinecraftGame$onPlayerLoaded, (void**) &_MinecraftGame$onPlayerLoaded);
 ```

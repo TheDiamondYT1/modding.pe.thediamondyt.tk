@@ -1,12 +1,8 @@
-gems:
-  - jekyll-sitemap
-  - jekyll-paginate
-
 timezone: Europe/London
 
 title: "Minecraft: Pocket Edition Modding"
 
-excerpt_separator: <!--read more-->
+markdown: redcarpet
 
 collections:
   wiki:
@@ -23,8 +19,8 @@ defaults:
   - scope:
       path: ""
       type: wiki
-      values:
-        layout: page
+    values:
+      layout: page
   - scope:
       path: ""
       type: tutorials

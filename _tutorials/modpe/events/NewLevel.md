@@ -5,7 +5,7 @@ shortname: New Level
 ---
 This event is the equivilent of the [Player Loaded](../../native/events/player-loaded) event of native mods.
 
-```
+```javascript
 function newLevel()
 {
 	// your code here
