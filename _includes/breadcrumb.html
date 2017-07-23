@@ -1,0 +1,11 @@
+<ol class="breadcrumb">
+  <li><a href="{{ site.url }}{{ site.baseurl }}">Home</a>
+  {% assign crumbs = page.url | split: '/' %}
+  {% for crumb in crumbs offset: 1 %}
+  {% if forloop.last %}
+  <li>{{ page.shortname }}</li>
+  {% else %}
+  <li><a href="{{ site.url }}{{ site.baseurl }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' }}</a></li>
+  {% endif %}
+  {% endfor %}
+</ol>
