@@ -14,10 +14,10 @@ shortname: Native Mod Tutorial
   
   
 ### Headers
-
+<br>
 #### WTF are headers!?
 If you don't know what they are then you don't belong here. Go and learn at least a bit of C++.
-
+<br>
 #### Where can i get them?
 I have a GitHub repository for maintaining headers. Please note that they are incomplete and are not made by me, i only make edits to them.
   

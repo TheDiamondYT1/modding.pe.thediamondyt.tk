@@ -1,7 +1,7 @@
 ---
-title: MCPE Native Mod Tutorial
-permalink: /tutorials/native/
-shortname: Native Mod Tutorial
+title: MCPE ModPE (JavaScript) Tutorial
+permalink: /tutorials/modpe/
+shortname: ModPE Tutorial
 ---
 
 
