@@ -5,6 +5,8 @@ shortname: Mob Death
 ---
 This particular tutorial shows you how to do something when a mob (such as a creeper) dies.
 
+---
+
 ```cpp
 static void (*_Mob$die)(EntityDamageSource*);
 static void Mob$die(EntityDamageSource* source)

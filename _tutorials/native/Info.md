@@ -11,10 +11,11 @@ shortname: Native Mod Tutorial
   
 * [Events](events/)  
   * [Player Loaded](events/player-loaded/)  
-  * [Mob Death](events/mob-death/). 
+  * [Mob Death](events/mob-death/)  
   
 * [Cool Things!](cool-things/)  
-  * [Enable Edu Mode](coo!-things/enable-edu-mode/)  
+  * [Enable Edu Mode](cool-things/enable-edu-mode/)  
+  
 ---
   
 ### Headers
