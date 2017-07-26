@@ -7,11 +7,14 @@ shortname: Native Mod Tutorial
 ###### Read more on the [wiki](../../wiki/types/native/).
 
 * [GUI](gui/)  
-  * [Displaying Messages](gui/display-message)  
+  * [Displaying Messages](gui/display-message/)  
   
 * [Events](events/)  
-  * [Player Loaded](events/player-loaded)  
+  * [Player Loaded](events/player-loaded/)  
+  * [Mob Death](events/mob-death/). 
   
+* [Cool Things!](cool-things/)  
+  * [Enable Edu Mode](coo!-things/enable-edu-mode/)  
 ---
   
 ### Headers
