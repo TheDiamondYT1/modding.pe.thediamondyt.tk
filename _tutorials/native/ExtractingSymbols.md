@@ -30,12 +30,17 @@ Run `nm -DC libminecraftpe.so`
 <br>
 
 #### Getting all methods in the "MinecraftGame" class
-Run 'nm -DC libminecraftpe.so | grep "MinecraftGame::"`
+Run `nm -DC libminecraftpe.so | grep "MinecraftGame::"`
 
 <br>
 
 #### Getting all getters in the "MinecraftGame" class
-Run 'nm -DC libminecraftpe.so | grep "MinecraftGame::get"`
+Run `nm -DC libminecraftpe.so | grep "MinecraftGame::get"`
+
+<br>
+
+#### Getting all methods in the "GuiData" class
+Run `nm -DC libminecraftpe.so | grep "GuiData::"`
 
 <br>
 You get the idea.
