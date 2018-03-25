@@ -4,6 +4,8 @@ permalink: /tutorials/native/events/mob-death/
 shortname: Mob Death
 ---
 This particular tutorial shows you how to do something when a mob (such as a creeper) dies.
+<br>
+The equivalent ModPE method of this would be `deathHook(attacker, victim)`.
 
 ---
 

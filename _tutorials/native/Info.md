@@ -4,7 +4,11 @@ permalink: /tutorials/native/
 shortname: Native Mod Tutorial
 ---
 ## Native Mods
-###### Read more on the [wiki](../../wiki/types/native/).
+For 1.2.10.
+
+* General
+  * [Manipulate Chat](chat/)  
+  * [Change Game Version](game-version/)  
 
 * [GUI](gui/)  
   * [Displaying Messages](gui/display-message/)  
@@ -12,9 +16,12 @@ shortname: Native Mod Tutorial
 * [Events](events/)  
   * [Player Loaded](events/player-loaded/)  
   * [Mob Death](events/mob-death/)  
+  * [Mob Effects](events/mob-effects/)  
+  * [Wolf Tame](events/wolf-tame/)  
   
 * [Cool Things!](cool-things/)  
   * [Enable Edu Mode](cool-things/enable-edu-mode/)  
+  * [Bypass Xbox Live](cool-things/bypass-xbl/)  
   
 ---
   

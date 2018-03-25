@@ -6,10 +6,10 @@ shortname: Init Game
 This particular tutorial shows you how to do something when the game starts up.
 
 ```cpp
-static void (*_MinecraftGame$init)(MinecraftGame*);
-static void MinecraftGame$init(MinecraftGame* self)
+static void (*_Minecraft$init)(Minecraft*, bool);
+static void Minecraft$init(Minecraft* self, bool unknown)
 {
-	_MinecraftGame$init(self);
+	_Minecraft$init(self, unknown);
 	// do stuff here
 }
 ```
@@ -17,5 +17,5 @@ static void MinecraftGame$init(MinecraftGame* self)
 Don't forget to hook it!
 
 ```cpp
-MSHookFunction((void*) &MinecraftGame::init, (void*) &MinecraftGame$init, (void**) &_MinecraftGame$init);
+MSHookFunction((void*) &Minecraft::init, (void*) &Minecraft$init, (void**) &_Minecraft$init);
 ```

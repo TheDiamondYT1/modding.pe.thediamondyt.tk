@@ -11,10 +11,10 @@ The equivalent ModPE method of this would be `newLevel()`.
 ---
 
 ```cpp
-static void (*_MinecraftGame$onPlayerLoaded)(MinecraftGame*, Player&);
-static void MinecraftGame$onPlayerLoaded(MinecraftGame* self, Player& player)
+static void (*_MinecraftGame$onPlayerLoaded)(MinecraftGame*, ClientInstance&, Player&);
+static void MinecraftGame$onPlayerLoaded(MinecraftGame* self, ClientInstance& client, Player& player)
 {
-	_MinecraftGame$onPlayerLoaded(self, player);
+	_MinecraftGame$onPlayerLoaded(self, client, player);
 	// do stuff here
 }
 ```
