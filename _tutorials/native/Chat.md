@@ -3,7 +3,7 @@ title: MCPE Native Mod Tutorial | Chat
 permalink: /tutorials/native/chat/
 shortname: Chat
 ---
-In this particular tutorial, `game` is an instance of the `MinecraftGame` class. You can get this by overriding `MinecraftGame::onPlayerLoaded`, tutorial [here](http://pe.thediamondyt.tk/tutorials/native/events/player-loaded/). 
+In this particular tutorial, `game` is an instance of the `MinecraftGame` class. You can get this by overriding `MinecraftGame::onPlayerLoaded`, tutorial [here](http://modding.pe.thediamondyt.tk/tutorials/native/events/player-loaded/). 
 
 ---
 

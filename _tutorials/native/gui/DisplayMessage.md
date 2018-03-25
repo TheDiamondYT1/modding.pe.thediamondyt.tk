@@ -4,7 +4,7 @@ permalink: /tutorials/native/gui/display-message/
 shortname: Displaying Messages
 ---
 ### Displaying messages
-In this particular tutorial, `game` is an instance of the `MinecraftGame` class. You can get this by overriding `MinecraftGame::onPlayerLoaded`, tutorial [here](http://pe.thediamondyt.tk/tutorials/native/events/player-loaded/). 
+In this particular tutorial, `game` is an instance of the `MinecraftGame` class. You can get this by overriding `MinecraftGame::onPlayerLoaded`, tutorial [here](http://modding.pe.thediamondyt.tk/tutorials/native/events/player-loaded/). 
 <br>
 #### Client message
 ```cpp
